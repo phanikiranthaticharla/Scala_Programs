@@ -1,3 +1,8 @@
+/**
+ * An example for ExceptionHandling
+ * @author Phani Kiran Thaticharla
+ */
+
 import java.io.FileNotFoundException
 import io.Source._
 object exceptionHandling {

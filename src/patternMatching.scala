@@ -1,3 +1,8 @@
+/**
+ * An example for Pattern Matching
+ * @author Phani Kiran Thaticharla
+ */
+
 object patternMatching {
   def main(args: Array[String]): Unit = {
     def greekAlphabet(letter:Char) = {
