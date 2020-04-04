@@ -12,12 +12,17 @@ object maps {
     for((k,v) <- countryCodes) {
       println(k, v)
     }
+    println("Better to use foreach instead of the above for loop")
+    countryCodes.foreach(println)
 
     /**
      * Output:
      * Some(+91)
      * +91
      * +1
+     * (India,+91)
+     * (USA,+1)
+     * Better to use foreach instead of the above for loop
      * (India,+91)
      * (USA,+1)
      */
